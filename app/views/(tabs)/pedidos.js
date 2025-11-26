@@ -1,7 +1,7 @@
 import { Pressable, Text, TextInput, View } from "react-native";
-import { Screen } from "../../components/Screen";
-import { SearchIcon, UserIcon } from "../../components/Icons";
-import { colors } from "../../constants/theme";
+import { Screen } from "../../../components/Screen";
+import { SearchIcon, UserIcon } from "../../../components/Icons";
+import { colors } from "../../../constants/theme";
 import { styled } from "nativewind";
 import { Link } from "expo-router";
 

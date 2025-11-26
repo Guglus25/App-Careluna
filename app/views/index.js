@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { View, Animated, Text, StyleSheet, Image } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { Stack, useRouter } from "expo-router";
-import { Screen } from "../components/Screen";
+import { Screen } from "../../components/Screen";
 
 export default function SplashScreen() {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function SplashScreen() {
 
     // Redirige después de 3 segundos
     const timer = setTimeout(() => {
-      router.replace("/home");
+      router.replace("/views/home");
     }, 3500);
 
     return () => clearTimeout(timer);
@@ -49,7 +49,7 @@ export default function SplashScreen() {
     <>
       <LinearGradient colors={["#0D1B2A", "#1B2A49"]} style={styles.container}>
         <Animated.Image
-          source={require("../assets/logo.png")}
+          source={require("../../assets/logo.png")}
           style={[
             styles.logo,
             {

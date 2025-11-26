@@ -22,7 +22,7 @@ export default function Layout() {
             headerLeft: () => (
               <View>
                 <Image
-                  source={require("../assets/logo.png")}
+                  source={require("../../assets/logo.png")}
                   style={{ width: 40, height: 40, resizeMode: "contain" }}
                 ></Image>
               </View>

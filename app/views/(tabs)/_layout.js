@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
-import { ClienteIcon, HomeIcon, PedidoIcon } from "../../components/Icons";
-import tailwindConfig from "../../tailwind.config";
+import { ClienteIcon, HomeIcon, PedidoIcon } from "../../../components/Icons";
+import tailwindConfig from "../../../tailwind.config";
 import resolveConfig from "tailwindcss/resolveConfig";
 import { StyleSheet, View } from "react-native";
 

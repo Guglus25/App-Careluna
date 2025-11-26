@@ -12,6 +12,7 @@
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
     "@expo/vector-icons": "^15.0.3",
+    "axios": "^1.13.2",
     "expo": "~54.0.23",
     "expo-constants": "~18.0.10",
     "expo-linear-gradient": "~15.0.7",
@@ -29,6 +30,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@types/react": "~19.1.10",
     "babel-preset-expo": "^54.0.7",
     "eslint": "^9.0.0",
     "eslint-config-expo": "~10.0.0",
